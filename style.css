@@ -32,8 +32,10 @@ body {
 .text-extreme-images {
     background-color: rgb(104, 104, 104);
     color: white;
-    font: 1em sans-serif;
+    font: 1.6vw sans-serif;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.616);
+    text-align: center;
+    width: 50vw;
     letter-spacing: .3em;
     border-radius: 5px;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.418);
@@ -90,8 +92,8 @@ body {
 }
 
 .text-mid-images {
-    color: white;
-    font: 1em sans-serif;
+    color: rgb(53, 53, 53);
+    font: 2vw sans-serif;
     letter-spacing: .4em;
 }
 
