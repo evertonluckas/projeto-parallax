@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+.extreme-images {
+    height: 100vh;
+    background: center center no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.329);
+}
+
+#first-extreme-image {
+    background-image: url('imagens/panoramica.jpg');
+}
+
+#last-extreme-image {
+    background-image: url('imagens/entardecer.jpg');
+}
+
+.text-extreme-images {
+    background-color: rgb(104, 104, 104);
+    color: white;
+    font: 1em sans-serif;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.616);
+    letter-spacing: .3em;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.418);
+    padding: 20px;
+}
+
+.normal#black h2 {
+    font: bold 2em sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.192);
+    padding-top: 50px;
+}
+
+.normal#white h2 {
+    font: bold 2em sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.247);
+    padding-top: 50px;
+}
+
+.normal p {
+    font: 1em Arial;
+    text-align: center;
+    line-height: 2em;
+    padding: 25px 60px 50px 60px;
+}
+
+.normal#black {
+    background-image: linear-gradient(to bottom, #353535, #1f1f1f);
+    color: rgb(214, 214, 214);
+}
+
+.normal#white {
+    background-image: linear-gradient(to bottom, #eeeeee, #d6d6d6);
+    color: #4d4d4d;
+}
+
+.mid-images {
+    height: 65vh;
+    background: black center bottom no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.329);
+}
+
+.mid-images#img01 {
+    background-image: url('imagens/nascer-do-sol-barco.jpg');
+}
+
+.mid-images#img02 {
+    background-image: url('imagens/eu-amo-aracaju.jpg');
+}
+
+.text-mid-images {
+    color: white;
+    font: 1em sans-serif;
+    letter-spacing: .4em;
+}
+
+footer {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font: bold 1em sans-serif;
+    text-align: center;
+    padding: 5px;
+    box-shadow: inset 0px 0px 10px #ffe18054;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    background-color: #ffe18093;
+    color: rgb(34, 34, 34);
+    text-decoration: underline;
+    border-radius: 2px;
+    padding: .5px;
+}
